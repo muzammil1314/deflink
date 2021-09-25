@@ -2286,6 +2286,10 @@
   src: url(../fonts/GraphikLight.otf);
 }
 @font-face {
+  font-family:GraphikMedium;
+  src: url(../fonts/GraphikMedium.otf);
+}
+@font-face {
   font-family:Montserrat-Bold;
   src: url(../fonts/Montserrat-Bold.ttf);
 }
@@ -20590,12 +20594,20 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
       }
    
       @media (max-width: 991.98px) {
+        .navbar-light .navbar-nav .nav-link {
+          color: white;
+          font-size: 18px;
+          padding-bottom: 1.3rem;
+        }
+        .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+          color: white;
+      }
         #mysite footer .social-icons li{margin-right: 15px;}
         #mysite #collapsibleNavId {
           position: absolute;
           width: 100%;
           background-color: #fff;
-          background:rgb(255 255 255 / 92%);
+          background: rgb(41 33 33 / 92%);
           z-index: 999999;
           top:56px;
           left: 0;
@@ -20604,6 +20616,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
           border-bottom-left-radius: 10px;
           border-bottom-right-radius: 10px;
           border: 1px solid #dadada;
+          padding: 45px;
         }
         .footer-heading{border-bottom: 1px solid #104840;
           padding-bottom: 10px;}
@@ -20648,12 +20661,17 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
           min-width: 120px;
           min-height: 45px;
           padding: 5px 10px;
+          letter-spacing: 0.25px;
       }
+      .main-content  .btn {
+        flex: 1;
+        width: 49%;
+    }
         .btn-appear {
-          min-width: 115px;
+          min-width: 130px;
           min-height: 35px;
-          padding: 5px;
-          font-size: 12px;
+          font-size: 13px;
+          font-family: Graphik;
       }
         h2.heading-small{font-size: 28px;}
       
