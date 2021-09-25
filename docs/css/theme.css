@@ -20464,8 +20464,8 @@ readers do not read off random characters that represent icons */
   .banner-text{
     font-size: 54px;;
     font-weight: bold;
-    font-family:Montserrat-Bold;
-    letter-spacing: -3px;
+    font-family:GraphikMedium;
+   
   }
     .heading-small{font-size: 34px;
       font-weight: 700;
@@ -20528,7 +20528,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
       align-items: center;}
       #mysite footer .social-icons li a:hover{color: #fff; background: #0b463e;}
       .social-icons li:last-child{margin-right: 0;}
-        button.btn-header{min-width: 150px;
+        button.btn-header{min-width: 180px;
           min-height: 50px;}
           .mouse-running{margin-bottom: -6px;
             z-index: -1;
@@ -20673,12 +20673,12 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         .navbar-light .navbar-toggler{margin-right: 0;}
         .navbar-brand img{width: 130px;}
         .dink-sec{height: inherit;}
-        .btn-appear {
+        /* .btn-appear {
           min-width: 110px;
           min-height: 32px;
           padding: 4px;
           font-size: 11px;
-      }
+      } */
       .navbar{padding-left: 0px;
         padding-right: 8px;}
       }
