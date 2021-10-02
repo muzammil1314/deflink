@@ -89,7 +89,7 @@
     
 
 
-<div class="col-2 col-lg-3 col-sm-6 mb-2 mb-lg-0">
+<div class="col-2 col-lg-3 col-sm-6 mb-2 mb-lg-0 pr-2">
 
       <div class="dropdown d-block d-sm-none">
       <div class="sort-xs dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img height="18" src="images/sort.svg"></div>
@@ -119,7 +119,7 @@
       </div>
 
     </div>
-    <div class="col-lg-3 col-sm-6 col-9 mb-2 mb-lg-0">
+    <div class="col-lg-3 col-sm-6 col-9 mb-2 mb-lg-0 pl-0">
 
       <div class="dropdown">
         <input class="btn btn-secondary filter-field" placeholder="Search farms">
@@ -130,34 +130,42 @@
 
     </div>
 
-    <div class="align-items-center col-1 col-lg-6 col-sm-12 d-flex flex-wrap justify-content-between align-items-baseline">
-      <div class="accordion align-items-center d-flex mb-0"><label class="mr-3 switch mb-0 d-none d-sm-block">
+    <div class="align-items-center col-1 col-lg-6 col-sm-12 d-flex flex-wrap justify-content-between justify-content-lg-end">
+      <div class="accordion align-items-center d-flex mb-0 mr-4"><label class="mr-3 switch mb-0 d-none d-sm-block">
         <input type="checkbox">
         <span class="slider round"></span>
-      </label><span class="text-white d-none d-sm-block">Staked Live</span></div>
-      <div class="btn-group btn-group-toggle filter-btns ml-0 ml-sm-4 d-none d-sm-block" data-toggle="buttons">
+      </label><span class="text-white d-none d-sm-block">Staked only</span></div>
+      <!-- <div class="btn-group btn-group-toggle filter-btns ml-0 ml-sm-4 d-none d-sm-block" data-toggle="buttons">
         <button class="btn btn-secondary active">
           <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Live
         </button>
         <button class="btn btn-secondary">
           <input type="radio" name="options" id="option2" autocomplete="off"> Finished
         </button>
+      </div> -->
+      <div class="btn-group btn-group-toggle filters filter-btns  d-flex" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" checked> Live
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2">  Finished
+        </label>
       </div>
 
       <div class="dropdown d-sm-none">
   <a class="dropdown-toggle" data-toggle="dropdown">
-    <i class="fas fa-ellipsis-v text-black"></i>
+    <i class="fas fa-ellipsis-v text-black dots-click"></i>
   </a>
   <div class="dropdown-menu dropdown-menu-right p-3">
-      <div class="accordion align-items-center d-flex mb-3"><label class="mr-3 switch mb-0">
+      <div class="accordion align-items-center d-flex mb-3 justify-content-between"><label class="mr-3 switch mb-0">
         <input type="checkbox">
         <span class="slider round"></span>
-      </label><span class="text-white">Staked Live</span></div>
+      </label><span class="">Staked Live</span></div>
       <div class="btn-group btn-group-toggle filter-btns ml-0 ml-lg-4" data-toggle="buttons">
         <button class="btn btn-secondary active">
           <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Live
         </button>
-        <button class="btn btn-secondary btn-xs-second">
+        <button class="btn btn-secondary disabled btn-xs-second">
           <input type="radio" name="options" id="option2" autocomplete="off"> Finished
         </button>
       </div>

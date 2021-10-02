@@ -20519,6 +20519,8 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
       }
 
       @media (max-width: 575.98px) {
+        .width-xs-100{width: 100%;}
+        .width-xs-100 button{width: 100%;}
         input:checked + .slider {
     background-color: #dedede !important;
 }
@@ -20739,9 +20741,62 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
                   border-radius: 4px;
                   text-align: center;
               }
-              .sort-xs img {
+              .sort-xs img, .sort-xs i {
                   position: absolute;
                   left: 50%;
                   top: 50%;
                   transform: translate(-50%, -50%);
               }
+
+              /*NFT Style*/
+              .btn-black{font-weight: 500;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                font-family: 'graphik';
+                line-height: 20px;
+                background: #032621;
+                border-radius: 6px;
+                min-height: 44px;
+                color: #FFFFFF;}
+                .nft-box{padding: 15px 15px 0 15px;}
+                .nft-box .wonder-box-body{min-height: 270px;background: rgba(69, 237, 213, 0.1);
+                  border-radius: 4px;padding: 0;}
+
+                  .filters  {
+                    min-width: 210px;
+                  }
+                  .filter-btns .active {
+                    background-color: #032621 !important;
+                    border: none;
+                    box-shadow: none;
+                    border-radius: 4px !important;
+                }
+                .filter-btns .btn {
+                  font-weight: 600;
+                  min-width: 85px;
+                  font-family: 'GraphikLight';
+                  min-height: 44px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  padding: 0 25px;
+              }
+              @media (max-width: 576px) {
+              .filters  {
+                  display: none !important;
+              }
+            }
+           
+            .dots-click {
+              margin-top: -2px;
+   position: relative;
+    top: -7px;
+    right: 8px;
+    font-size: 19px;
+            }
+            .btn-secondary.disabled, .btn-secondary:disabled {
+              opacity: 1;
+              background-color:#a2afad;
+              border-color: #a2afad;
+          }
