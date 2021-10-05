@@ -7401,7 +7401,7 @@ input[type="button"].btn-block {
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
-    border-color: #0035f0;
+    border-color: #fa02dc;
     border-width: 2px;
     top: 50px;
     border-top: none;
@@ -20581,7 +20581,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
   .wonder-box h2{font-size: 14px !important;}
         .logo-footer-row{margin-bottom:5rem;}
         .main-nav{height: 60px;}
-        #mysite #collapsibleNavId{top: 74px;
+        #mysite #collapsibleNavId{top: 71px;
           height: 100vh;}
         .btn {
           min-width: 120px;
