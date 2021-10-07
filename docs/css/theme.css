@@ -14053,11 +14053,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 
-@media (max-width: 991.98px) {
-  .navbar-toggler {
-    margin-right: 16px;
-  }
-}
+
 
 hr {
   margin: 0;
