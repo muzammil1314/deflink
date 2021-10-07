@@ -20884,6 +20884,11 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
           background-image: url("../images/curves.svg");
           background-repeat: no-repeat;
         }
+        .mini-logo {
+          position: absolute;
+          top: 5px;
+          left: 46px;
+        }
        
         
 
