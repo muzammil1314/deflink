@@ -20400,6 +20400,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
       background-repeat: no-repeat;
       background-size: cover;
       height: 624px;
+      margin-top: -2px;
     }
       .dink-sec p{font-family: 'graphikLight', 'Montserrat';}
       .footer-heading{font-family: 'Graphik', 'Montserrat';
