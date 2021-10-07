@@ -13,11 +13,11 @@
   <body id="mysite">
 
 
-    <div class="fixed-top bg-white">
+    <div class="fixed-top top-nav">
       <!-- nav -->
       <div class="container">
         
-      <nav class="navbar navbar-expand-lg navbar-light bg-white px-0">
+      <nav class="navbar navbar-expand-lg navbar-light  px-0">
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-grip-lines"></i>
@@ -311,6 +311,20 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 80) {
+	    $(".top-nav").css("background" , "#fff");
+	  }
+
+	  else{
+		  $(".top-nav").css("background" , "transparent");  	
+	  }
+  })
+})
+    </script>
 
   </body>
 </html>
