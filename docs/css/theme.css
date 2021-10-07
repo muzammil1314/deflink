@@ -20664,10 +20664,15 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         width: 26px;
         left: 4px;
         bottom: 4px;
-        background-color:#fff;
+        background-color:#000;
         -webkit-transition: .4s;
         transition: .4s;
       }
+      input:checked + .slider:before {
+        background-color: #fff;
+    }
+              
+       
       
       input:checked + .slider {
         background-color:#000;
