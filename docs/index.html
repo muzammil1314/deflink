@@ -12,26 +12,25 @@
   </head>
   <body id="mysite">
 
-
-<div class="container-fluid px-0 px-lg-3">
+   
+<div class="fixed-top bg-white">
   <!-- nav -->
-  <section class="main-nav fixed-top">
-    <div class="px-0 px-sm-5 w-100">
-  <nav class="navbar navbar-expand-lg navbar-light px-2 p-sm-0">
+  <div class="container">
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-white px-0">
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
     aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-grip-lines"></i>
 </button>
-    <a class="navbar-brand mr-auto" href="#"><img src="images/logo.svg"></a>
+    <a class="navbar-brand mr-auto" href="index.html">
+      <img class="d-none d-sm-block" src="images/logo.svg">
+      <img class="d-sm-none" src="images/mini-logo.svg">
+    </a>
     <button class="btn btn-outline-primary d-lg-none ml-auto btn-appear">Connect Wallet</button>
-    <div class="collapse navbar-collapse  px-4 px-lg-0"  id="collapsibleNavId">
+    <div class="collapse navbar-collapse  px-4 px-lg-0 phone-top-menu"  id="collapsibleNavId">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle d-flex" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trade <span class="ml-auto pl-2 d-flex"> <i class="fas fa-sort-down"></i></span></a>
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Action 1</a>
-                <a class="dropdown-item" href="#">Action 2</a>
-              </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trade</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Hedge-Funds.html">Hedge Funds</a>
@@ -70,16 +69,17 @@
     </div>
     </div>
   </nav>
+
 </div>
-</section>
+</div>
 
 
 
 
 
 
-<section class="content-section">
-
+<div class="content-section">
+<div class="container">
 <section class="section-space text-center text-lg-left">
   <div class="row">
     <div class="col-lg-6 mb-3 mb-lg-0 bg-none main-content">
@@ -142,7 +142,7 @@
 </section>
 
 
-<div class="container text-center p-0 px-sm-3">
+
   <img src="images/dink.png" class="img-fluid">
 <section class="section-space text-center dink-sec text-white">
   <h2 class="mb-5 heading-small">Governed By The Dink Community</h2>
@@ -151,7 +151,7 @@
       and vote on adjusting Platform Parameters.<br> Holders can also stake to earn more crypto and receive platform fees!</p>
       <button class="btn btn-secondary mb-2">Explore Governance</button>
 </section>
-</div>
+
 
 <section class="section-space text-center">
   <h2 class="mb-4 heading-small">Start Now</h2>
@@ -168,10 +168,8 @@
 
 
 <footer>
-  <div class="container p-0 px-sm-3">
-<!--     <div class="text-center">
-    <img src="images/mouse-running.png" class="img-fluid mouse-running">
-  </div> -->
+ 
+
     <div class="footer-sec mb-4 section-space">
       <div class="text-center text-sm-left logo-footer-row">
         <img src="images/logo-white.svg" class="my-4 my-sm-0">
@@ -285,7 +283,7 @@
 </div>
 
   
-</div>
+
 
 
 
@@ -293,7 +291,7 @@
 </footer>
 
 
-</section>
+</div>
 </div>
   
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

@@ -2932,13 +2932,13 @@ pre code {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1400px;
+    max-width: 1200px;
   }
 }
 
 @media (min-width: 1400px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    max-width: 1500px;
+    max-width: 1300px;
   }
 }
 
@@ -14052,12 +14052,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
-#mysite .main-nav {
-  background: white;
-  height: 70px;
-  display: flex;
-  align-items: center;
-}
 
 @media (max-width: 991.98px) {
   .navbar-toggler {
@@ -14184,7 +14178,7 @@ button:focus {
 #mysite .footer-sec {
   background: #032621;
 border-radius: 10px;
-padding-top: 60px;
+padding: 60px 40px 40px 40px;
 }
 
 #mysite footer h5 {
@@ -20360,7 +20354,7 @@ readers do not read off random characters that represent icons */
 }
 
 
-.content-section{padding-top: 66px;}
+.content-section{padding-top: 75px;}
 
   .bg-none{background: none;}
   .banner-text{
@@ -20382,11 +20376,11 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
 
     .section-space {
       margin-bottom:4rem;
-      padding:80px 40px;
+      padding:80px 0;
   }
   .inner-section-space {
     margin-bottom:4rem;
-    padding:60px 40px;
+    padding:60px 0;
 }
 
 
@@ -20498,9 +20492,10 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
    
       @media (max-width: 991.98px) {
         .navbar-light .navbar-nav .nav-link {
-          color: white;
-          font-size: 18px;
-          padding-bottom: 1.3rem;
+          color: white !important;
+    font-size: 18px;
+    padding-bottom: 1.3rem;
+    
         }
         .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
           color: white;
@@ -20508,18 +20503,16 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         #mysite footer .social-icons li{margin-right: 15px;}
         #mysite #collapsibleNavId {
           position: absolute;
-          width: 100%;
-          background-color: #fff;
-          background-color: rgb(3 38 33 / 95%);
-          z-index: 999999;
-          top:56px;
-          left: 0;
-          -webkit-box-shadow: 0px 7px 13px 0px #0000001a;
-          box-shadow: 0px 7px 13px 0px #0000001a;
-          border-bottom-left-radius: 10px;
-          border-bottom-right-radius: 10px;
-          border: 1px solid #dadada;
-          padding: 45px;
+    width: calc(100% + 32px);
+    background-color: rgb(3 38 33 / 95%);
+    z-index: 999999;
+    top: 56px;
+    left: -15px;
+    box-shadow: 0px 7px 13px 0px #0000001a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #dadada;
+    padding: 45px;
         }
         #collapsibleNavId  .nav-link.active {
           color: #fff;
@@ -20839,6 +20832,17 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
               .filters  {
                   display: none !important;
               }
+              .phone-top-menu .dropdown-menu {
+                background-color: transparent;
+                box-shadow: none !important;
+                border: none;
+                padding-top: 0;
+               }
+               .phone-top-menu .dropdown-menu a {
+                color: #fff !important;
+    font-size: 18px;
+    padding-left: 3px;
+               }
             }
            
             .dots-click {
@@ -20853,9 +20857,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
               background-color:#a2afad;
               border-color: #a2afad;
           }
-          .tabs-dark {
-
-          }
+         
           .tabs-dark .nav-pills .nav-link.active, .tabs-dark .nav-pills .show > .nav-link {
             color: #fff;
             background-color: #090a0a;
@@ -20880,6 +20882,8 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
           background-image: url("../images/curves.svg");
           background-repeat: no-repeat;
         }
+       
+        
 
 
             
