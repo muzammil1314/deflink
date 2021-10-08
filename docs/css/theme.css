@@ -20412,7 +20412,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         opacity: 0.5;}
         #mysite footer .social-icons li {
           display: inline-block;
-          margin-right:5px;
+          margin-right:10px;
       }
   
       #mysite footer .social-icons li a{background: #45EDD5;
@@ -20889,6 +20889,82 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
           top: 5px;
           left: 0px;
         }
+
+
+
+        .table thead th {
+          font-size: 12px;
+          color: #687d7a;
+          padding-bottom: 1rem;
+          
+        }
+        .table th, .table td {
+          padding: 0.45rem 0.75rem;
+    border-top: transparent;
+    vertical-align: middle;
+    font-family: Graphik;
+    white-space: nowrap;
+      }
+      .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #ECFFFC;
+    }
+      .table td {
+        font-size: 14px;
+      }
+        .table-circle {
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+         .light-blue-circle {
+           background: #FFD7FA;
+         }
+         .dark-blue-circle {
+          background: #8247e5;
+         }
+         .light-circle {
+          background: #E7E7E7;
+         }
+         
+         .btn-deflink {
+          min-width: 130px;
+          min-height: 35px;
+          font-size: 13px;
+          font-family: Graphik;
+      }
+
+      .page-link {
+        position: relative;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #45474a;
+        background-color: #fff;
+        border: transparent;
+    }
+    .page-link {
+      border-radius: 50% !important;
+      width: 33px;
+      height: 33px;
+      margin: 0 4px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .page-no {
+      background: black;
+      color: white;
+    }
+    .page-item.active .page-link {
+      z-index: 3;
+      color: #fff;
+      background-color: #e5e5e5;
+      border-color: #e5e5e5;
+  }
        
         
 

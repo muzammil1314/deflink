@@ -87,7 +87,36 @@
     
 
 
+    <div class="col-2 col-lg-3 col-sm-6 mb-2 mb-lg-0 pr-2 d-sm-none">
 
+      <div class="dropdown d-block d-sm-none">
+      <div class="sort-xs dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img height="18" src="images/sort.svg"></div>
+       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        </div>
+
+      <div class="d-none d-sm-block dropdown">
+        <button class="btn btn-secondary dropdown-toggle filter-field" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sort by: Hot
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        <span class="filter-icon mr-2">
+         
+          <img height="18" src="images/sort.svg">
+        </span>
+        <span class="align-items-center d-flex filter-arrow">
+          <i class="fas fa-sort-down"></i>
+        </span>
+      </div>
+
+    </div>
     <div class="col-lg-3 col-sm-6 col-9 mb-2 mb-lg-0 pl-2">
 
       <div class="dropdown">
@@ -103,15 +132,14 @@
       <div class="accordion align-items-center d-flex mb-0 mr-4"><label class="mr-3 switch mb-0 d-none d-sm-block">
         <input type="checkbox">
         <span class="slider round"></span>
-      </label><span class="text-white d-none d-sm-block">Staked only</span></div>
-      <!-- <div class="btn-group btn-group-toggle filter-btns ml-0 ml-sm-4 d-none d-sm-block" data-toggle="buttons">
-        <button class="btn btn-secondary active">
-          <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Live
-        </button>
-        <button class="btn btn-secondary">
-          <input type="radio" name="options" id="option2" autocomplete="off"> Finished
-        </button>
-      </div> -->
+      </label><span class="text-white d-none d-sm-block">Staked only</span>
+      </div>
+      <div class="accordion align-items-center d-flex mb-0 mr-4"><label class="mr-3 switch mb-0 d-none d-sm-block">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label><span class="text-white d-none d-sm-block">WNDR only</span>
+      </div>
+     
       <div class="btn-group btn-group-toggle filters filter-btns  d-flex" data-toggle="buttons">
         <label class="btn btn-secondary active">
           <input type="radio" name="options" id="option1" checked> Active
@@ -149,735 +177,145 @@
 
 <div class="container">
 <section class="wonder-box-section inner-section-space mb-0">
-  <div class="row">
+  
 
-<div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box1">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box1" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-   <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box2">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box2" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box3">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box3" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box4">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box4" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box5">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box5" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box6">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box6" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box7">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box7" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box8">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box8" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box9">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box9" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box10">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box10" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box11">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box11" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box12">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box12" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box13">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box13" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box14">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box14" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
-    <div class="col-md-6 col-xl-4 mb-4">
-      <div class="wonder-box shadow-sm">
-        <div class="wonder-box-header mb-4">
-          <div class="row mb-4">
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <img src="images/w1.png" class="mr-0 mr-sm-2">
-              <h2 class="d-inline-block">WNDR-BNB</h2>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-6 col-6">
-              <div class="align-items-center d-flex justify-content-lg-end justify-content-md-start justify-content-sm-end justify-content-end">
-                <span><img src="images/ic1.png" class="mr-1">Core</span>
-                <span class="btn-box ml-3">40x</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="wonder-fee mr-4">APR: <b>41.28%</b></div>
-            <div class="wonder-fee">Earn: <b>DWON + Fees</b></div>
-          </div>
-        </div>
-        <div class="dash-seperator my-3"></div>
-        <div class="wonder-box-body mb-3">
-          <div class="row mb-3">
-            <div class="col-6">
-              <p class="mb-2 dwon-text line-height-12"><b>DWON EARNED</b></p>
-              <h6 class="text-muted">0.0000</h6>
-            </div>
-            <div class="col-6 text-right">
-              <button class="btn btn-disabled">Harvest</button>
-            </div>
-          </div>
-          <p class="f12 mb-2"><b>DWON-BNB LP STAKED</b></p>
-          <button class="btn btn-outline-primary btn-block">Connect Wallet</button>
-        </div>
-        <div class="wonder-box-footer">
-         <a class="detail-drop d-flex justify-content-center text-black collapsed" data-toggle="collapse" data-target="#box15">More Detail <i class="fa-sort-down fas ml-2"></i></a>
-          <!-- more detail sec -->
-      <section id="box15" class="collapse">
-        <p class="text-muted f12 mb-0">Total Liquidity: <b class="text-black">$2,582,039</b></p>
-        <p class="text-theme f12 mb-0">Get DWON-BNB LP <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">View Contract <i class="fas fa-external-link-square-alt"></i></p>
-        <p class="text-theme f12 mb-0">See Pair Info <i class="fas fa-external-link-square-alt"></i></p>
-      </section>
-      <!-- more detail sec -->
-        </div>
-      </div>
-      <!-- wonder-box -->
-    </div>
 
-  </div>
-
-  <div class="text-center">
-    <button class="btn btn-load-more">Load More</button>
-  </div>
-
+      <div class="wonder-box shadow-sm">
+        
+      
+        <div class="wonder-box-body mb-3">
+          
+          <div class="table-responsive">
+          <table class="table table-borderless table-sm table-striped">
+            <thead>
+              <tr>
+                <th style="width:250px;" scope="col">TOKEN</th>
+                <th scope="col">APR</th>
+                <th scope="col">TOTAL STAKED</th>
+                <th scope="col">EARNEND</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row" class="d-flex align-items-center">
+                  <div class="table-circle light-blue-circle">
+                    <img  height="34" src="images/mini-logo.svg">
+                  </div>
+                  <img class="mx-2" src="images/move-arrow.svg">
+                  <div class="table-circle dark-blue-circle mr-4">
+                    <img  height="34" src="images/dark-blue.png">
+                  </div>
+                   WNDR
+                </td>
+                <td>89.75%</td>
+                <td>$2.31M </td>
+                <td>-</td>
+                <td class="text-right"><button class="btn btn-outline-primary btn-deflink">Connect Wallet</button></td>
+              </tr> 
+              <tr>
+                <td scope="row" class="d-flex align-items-center">
+                  <div class="table-circle light-blue-circle">
+                    <img  height="34" src="images/mini-logo.svg">
+                  </div>
+                  <img class="mx-2" src="images/move-arrow.svg">
+                  <div class="table-circle dark-blue-circle mr-4">
+                    <img  height="34" src="images/dark-blue.png">
+                  </div>
+                   WNDR
+                </td>
+                <td>89.75%</td>
+                <td>$2.31M </td>
+                <td>-</td>
+                <td class="text-right"><button class="btn btn-outline-primary btn-deflink">Connect Wallet</button></td>
+              </tr> 
+              <tr>
+                <td scope="row" class="d-flex align-items-center">
+                  <div class="table-circle light-blue-circle">
+                    <img  height="34" src="images/mini-logo.svg">
+                  </div>
+                  <img class="mx-2" src="images/move-arrow.svg">
+                  <div class="table-circle light-circle mr-4">
+                    <img  height="48" src="images/light-circle.png">
+                  </div>
+                  CYT
+                </td>
+                <td>132.21%</td>
+                <td>$2.31M </td>
+                <td>-</td>
+                <td class="text-right"><button class="btn btn-outline-primary btn-deflink">Connect Wallet</button></td>
+              </tr> 
+              <tr>
+                <td scope="row" class="d-flex align-items-center">
+                  <div class="table-circle light-blue-circle">
+                    <img  height="34" src="images/mini-logo.svg">
+                  </div>
+                  <img class="mx-2" src="images/move-arrow.svg">
+                  <div class="table-circle light-circle mr-4">
+                    <img  height="48" src="images/light-circle.png">
+                  </div>
+                  CYT
+                </td>
+                <td>132.21%</td>
+                <td>$2.31M </td>
+                <td>-</td>
+                <td class="text-right"><button class="btn btn-outline-primary btn-deflink">Connect Wallet</button></td>
+              </tr> 
+              <tr>
+                <td scope="row" class="d-flex align-items-center">
+                  <div class="table-circle light-blue-circle">
+                    <img  height="34" src="images/mini-logo.svg">
+                  </div>
+                  <img class="mx-2" src="images/move-arrow.svg">
+                  <div class="table-circle light-circle mr-4">
+                    <img  height="48" src="images/light-circle.png">
+                  </div>
+                  CYT
+                </td>
+                <td>132.21%</td>
+                <td>$2.31M </td>
+                <td>-</td>
+                <td class="text-right"><button class="btn btn-outline-primary btn-deflink">Connect Wallet</button></td>
+              </tr> 
+              <tr>
+                <td scope="row" class="d-flex align-items-center">
+                  <div class="table-circle light-blue-circle">
+                    <img  height="34" src="images/mini-logo.svg">
+                  </div>
+                  <img class="mx-2" src="images/move-arrow.svg">
+                  <div class="table-circle light-circle mr-4">
+                    <img  height="48" src="images/light-circle.png">
+                  </div>
+                  CYT
+                </td>
+                <td>132.21%</td>
+                <td>$2.31M </td>
+                <td>-</td>
+                <td class="text-right"><button class="btn btn-outline-primary btn-deflink">Connect Wallet</button></td>
+              </tr> 
+             
+            </tbody>
+          </table>
+        </div>
+        <div class="d-flex justify-content-end">
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link page-no" href="#" tabindex="-1"><i class="fas fa-chevron-left"></i></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link page-no" href="#"><i class="fas fa-chevron-right"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        </div>
+      </div>
 </section>
 </div>
 
