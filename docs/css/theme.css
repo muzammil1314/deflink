@@ -20997,6 +20997,23 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
     color: white;
     padding: 18px 9px;
   }
+
+  .social-icons-light li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icons-light li a {
+  background: #74e3d8;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  color: #032621;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
   
   
 
