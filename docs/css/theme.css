@@ -2759,9 +2759,10 @@ h6, .h6 {
     font-size: calc(1.575rem + 3.9vw) ;
   }
   .navbar-brand {
-    position: absolute;
+    /* position: absolute;
     top: 5px;
-    left: 50px;
+    left: 50px; */
+    transform: translateX(-11px);
   }
 
 }
