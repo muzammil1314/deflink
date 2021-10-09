@@ -2940,6 +2940,9 @@ pre code {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1200px;
   }
+  .tabs-dark .nav-pills .nav-link {
+    padding: 0.5rem 2rem;
+}
 }
 
 @media (min-width: 1400px) {
@@ -20760,7 +20763,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
       font-style: normal;
       font-weight:600;
       font-size: 16px;
-      line-height: 32px;
+      line-height: 28px;
       color: #032621;}
       .btn-box{background: #032621;
         border-radius: 6px;font-family: Graphik;
@@ -20785,14 +20788,14 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         .f12{font-size: 12px;}
         .text-theme{color:#fa02dc;}
         .text-black{color: black;}
-        .btn-load-more{border: 1px solid #E7E7E7;
+        .btn-load-more{border: 1px solid #c7bbbb;
           border-radius: 4px;font-family: Graphik;
           font-style: normal;
           font-weight: normal;
           font-size: 16px;
           line-height: 20px;
           text-align: center;
-          color: #032621;margin:7rem 0 5rem 0;}
+          color: #032621;margin:6rem 0 5rem 0;}
           .dwon-text{font-family: Graphik;
             font-style: normal;
             font-weight: normal;
@@ -20857,6 +20860,9 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
                 box-shadow: none !important;
                 border: none;
                 padding-top: 0;
+               }
+               .btn-load-more {
+                margin: 3rem 0;
                }
                .phone-top-menu .dropdown-menu a {
                 color: #fff !important;
