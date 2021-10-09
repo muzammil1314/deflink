@@ -20864,6 +20864,9 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
                .btn-load-more {
                 margin: 3rem 0;
                }
+               .tabs-dark .nav-pills .nav-link {
+                padding: 0.5rem 0.75rem;
+               }
                .phone-top-menu .dropdown-menu a {
                 color: #fff !important;
     font-size: 18px;
