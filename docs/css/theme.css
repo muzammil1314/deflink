@@ -2758,12 +2758,7 @@ h6, .h6 {
   .display-3 {
     font-size: calc(1.575rem + 3.9vw) ;
   }
-  .navbar-brand {
-    /* position: absolute;
-    top: 5px;
-    left: 50px; */
-    transform: translateX(-35px);
-  }
+ 
 
 }
 
@@ -7297,6 +7292,16 @@ input[type="button"].btn-block {
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .container-xxl {
     padding-right: 0;
     padding-left: 0;
+  }
+  .navbar-brand {
+    /* position: absolute;
+    top: 5px;
+    left: 50px; */
+    transform: translateX(24px);
+  }
+  .navbar-toggler {
+    position: absolute;
+    z-index: 2;
   }
 }
 
