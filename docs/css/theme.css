@@ -2758,6 +2758,12 @@ h6, .h6 {
   .display-3 {
     font-size: calc(1.575rem + 3.9vw) ;
   }
+  .navbar-brand {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+  }
+
 }
 
 .display-4 {
@@ -2832,6 +2838,10 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .img-thumbnail {
@@ -7263,6 +7273,8 @@ input[type="button"].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  width: 48px;
+  padding-left: 0;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -20884,12 +20896,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
           background-image: url("../images/curves.svg");
           background-repeat: no-repeat;
         }
-        .mini-logo {
-          position: absolute;
-          top: 5px;
-          left: 0px;
-        }
-
+       
 
 
         .table thead th {
@@ -20965,8 +20972,18 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
       background-color: #e5e5e5;
       border-color: #e5e5e5;
   }
-       
-        
+  tr.hide-row td {
+    padding: 0;
+  }
+  tr.hide-row #collapseExample  {
+    background-color: rgb(3, 38, 33) !important;
+    border-radius: 7px;
+    margin: 12px;
+    color: white;
+    padding: 18px 9px;
+  }
+  
+  
 
 
             
