@@ -39,7 +39,7 @@
 }
 
 .fs-20 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .fs-21 {
@@ -14191,10 +14191,13 @@ button:focus {
     -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
+  .dink-sec, .footer-sec {
+   border-radius: 0 !important;
+  }
 }
 
 .card .card-body {
-  padding: 15px;
+  padding: 18px;
 }
 
 .card .bg-box1 {
@@ -21090,8 +21093,65 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
  color: white;
  font-size: 14px;
 }
-  
-
+.card-header {
+  padding: 0.95rem 1.25rem;
+  border-bottom: 1px solid rgb(221 219 219 / 13%);
+}
+.form-control.custom-option {
+  padding: 0.375rem 0.75rem;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #686e74;
+  border: none;background-color: transparent;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.pills-scroll {
+  background: #0b2d28;
+}
+.pills-scroll .pill {
+  flex: 1;
+  margin: 0 2px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 22px;
+  height: 50px;
+  color: white;
+  font-size: 13px;
+  font-family: Graphik;
+  text-align: center;
+}
+.pills-scroll .pill.active {
+  background: #23423e;
+}
+.rounded {
+  border-radius: 0.35rem !important;
+}
+.value-card {
+  background: #0b2d28;
+}
+.custom-control-range {
+  height: 2px;
+}
+.dark-input input {
+  background-color: #23423e;
+  border: none;
+  font-size: 14px;
+  color: white;
+  height: 44px;
+}
+.dark-input .form-control:focus {
+  background-color: #23423e;
+  color: white;
+}
+.dark-input  .input-group-text {
+  color: #627577;
+   background-color: #23423e;
+  border: none;
+}
 
             
         
