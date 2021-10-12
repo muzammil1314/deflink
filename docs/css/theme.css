@@ -2269,6 +2269,12 @@
 .pt-197 {
   padding-top: 197px;
 }
+.p-30 {
+  padding: 30px !important;
+ }
+.p-40 {
+ padding: 50px;
+}
 
 .pt-199 {
   padding-top: 199px;
@@ -7379,6 +7385,12 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+  .big-box {
+  
+    width: 242px !important;
+    height: 242px !important;
+    
+}
 }
 
 @media (min-width: 768px) {
@@ -10014,9 +10026,7 @@ button.bg-dark:focus {
   border-radius: 0.2rem !important;
 }
 
-.rounded {
-  border-radius: 0.25rem !important;
-}
+
 
 .rounded-top {
   border-top-left-radius: 0.25rem !important;
@@ -12035,6 +12045,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+  .p-sm-40 {
+    padding: 40px;
+  }
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -13868,6 +13881,7 @@ button.bg-dark:focus {
   }
 }
 
+
 .text-lowercase {
   text-transform: lowercase !important;
 }
@@ -14194,6 +14208,9 @@ button:focus {
   .dink-sec, .footer-sec {
    border-radius: 0 !important;
   }
+  .faq-s button {
+    padding-right: 47px !important;
+}
 }
 
 .card .card-body {
@@ -20491,7 +20508,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         legend {
           font-size: calc(1.275rem + 0.3vw) ;
         }
-        .banner-text{font-size: 40px;}
+        .banner-text{font-size: 34px;}
         .banner-text br{display: none;}
         p br{display: none;}
         .section-space{padding:80px 35px;}
@@ -20886,6 +20903,16 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
                   padding: 0 25px;
               }
               @media (max-width: 576px) {
+                .text-sm-normal {
+                  line-height: 25px;
+                  font-size: 16px;
+                  letter-spacing: 0.1px;
+                }
+                .no-sm-gutters > .col, .no-sm-gutters > [class*="col-"] {
+                  padding-right: 0;
+                  padding-left: 0;
+              }
+              
               .filters  {
                   display: none !important;
               }
@@ -21128,7 +21155,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
   background: #23423e;
 }
 .rounded {
-  border-radius: 0.35rem !important;
+  border-radius: 0.55rem !important;
 }
 .value-card {
   background: #0b2d28;
@@ -21152,6 +21179,112 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
    background-color: #23423e;
   border: none;
 }
+.big-box {
+  background-color: #FFEDFD;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+}
+.number-card {
+  background-color: #45EDD5;
+  width: 42px;
+  height: 43px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 22px;
+  font-weight: bold;
+}
+.card-affiliate .card-body {
+  min-height: 258px;
+}
 
-            
-        
+.benifit-card {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+}
+.card-benifit .card-body {
+  min-height: 311px;
+}
+
+.accordion-button, .accordion-item {
+  background-color: #f1f5fd;
+  border-radius: 20px !important;
+}
+.accordion-item {
+  border-top: 0;
+  margin-bottom: 9px;
+  border: none;
+  position: relative;
+}
+.accordion-button {
+  color: #343F52;
+  padding: 1.6rem 1.25rem;
+  border: none;
+}
+
+.faq-s button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: inherit;
+  font-family: 'GraphikMedium';
+}
+
+.faq-s button .icon { 
+
+  position: absolute;
+  right: 35px;
+  background-color: #032621;
+  border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.faq-s button i {
+    color: white;
+}
+.faq-s button .fa-sort-up {
+  margin-top: 8px;
+}
+.faq-s button .fa-sort-down {
+    margin-top: -6px;
+}
+    
+.faq-s .card {
+  margin-bottom: 1.6rem;
+  border-radius: .55rem !important;
+  box-shadow: rgb(0 0 0 / 3%) 0px 0.25rem 0.45rem !important;
+}
+.faq-s .card-header {
+    background-color: transparent;
+    padding: 0.83rem 1.25rem;
+    border-bottom: 0;
+}
+.faq-s .card-body {
+ padding-top: 0;
+ padding-left: 32px;
+}
+
+.faq-s  .btn-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.faq-s  .btn:focus {
+  outline: 0px;
+  box-shadow: none !important;
+}
+.faq-s  p {
+   font-size: 16px;
+}
+.faq-s  .btn-link:focus, .faq-s  .btn-link.focus {
+  text-decoration: none !important;
+}
