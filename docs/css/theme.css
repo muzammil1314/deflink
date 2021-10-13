@@ -1934,6 +1934,10 @@
   padding-top: 29px;
 }
 
+.pt-30 {
+  padding-top: 30px;
+}
+
 .pt-31 {
   padding-top: 31px;
 }
@@ -1943,7 +1947,7 @@
 }
 
 .pt-35 {
-  padding-top: 35px;
+  padding-top: 35px !important;
 }
 
 .pt-37 {
@@ -2462,10 +2466,19 @@ sup {
   background-color: #ffedfd !important;
 }
 .text-green {
-  color: var(--green);
+  color: var(--green) !important;
 }
 .text-red {
-  color: var(--red);
+  color: var(--red) !important;
+}
+.text-gray {
+  color: #b3a9a9;
+}
+.bg-l-green {
+  background-color: #ECFFFC;
+}
+.text-yellow {
+  color: #F2C94C;
 }
 
 
@@ -2972,7 +2985,7 @@ pre code {
     max-width: 1200px;
   }
   .tabs-dark .nav-pills .nav-link {
-    padding: 0.5rem 2rem;
+    padding: 0.55rem 2rem;
 }
 }
 
@@ -4488,7 +4501,7 @@ pre code {
 .table th,
 .table td {
   padding: 0.75rem;
-  vertical-align: top;
+  vertical-align: top !important;
   border-top: 1px solid #dee2e6;
 }
 
@@ -7385,12 +7398,7 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
-  .big-box {
   
-    width: 242px !important;
-    height: 242px !important;
-    
-}
 }
 
 @media (min-width: 768px) {
@@ -14205,12 +14213,19 @@ button:focus {
     -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
+  .commission-card .card-body [class|=col] {
+    min-height: 50px;
+  }
   .dink-sec, .footer-sec {
    border-radius: 0 !important;
   }
   .faq-s button {
     padding-right: 47px !important;
 }
+.add-curve {
+  min-height: 345px !important;
+}
+
 }
 
 .card .card-body {
@@ -20926,7 +20941,8 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
                 margin: 3rem 0;
                }
                .tabs-dark .nav-pills .nav-link {
-                padding: 0.5rem 0.75rem;
+                padding: 0.5rem 0.55rem;
+                font-size: 12px;
                }
                .phone-top-menu .dropdown-menu a {
                 color: #fff !important;
@@ -20971,6 +20987,8 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         .add-curve {
           background-image: url("../images/curves.svg");
           background-repeat: no-repeat;
+          background-position: bottom center;
+          min-height: 280px;
         }
        
 
@@ -21179,12 +21197,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
    background-color: #23423e;
   border: none;
 }
-.big-box {
-  background-color: #FFEDFD;
-  width: 420px;
-  height: 420px;
-  border-radius: 50%;
-}
+
 .number-card {
   background-color: #45EDD5;
   width: 42px;
@@ -21201,11 +21214,6 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
   min-height: 258px;
 }
 
-.benifit-card {
-  height: 72px;
-  width: 72px;
-  border-radius: 50%;
-}
 .card-benifit .card-body {
   min-height: 311px;
 }
@@ -21288,3 +21296,53 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
 .faq-s  .btn-link:focus, .faq-s  .btn-link.focus {
   text-decoration: none !important;
 }
+.content-page-section {
+  padding-bottom: 30px;
+}
+
+.table.data-center td {
+  vertical-align: middle !important;
+}
+.table.head-center th {
+  vertical-align: middle !important;
+  padding-bottom: 0;
+}
+
+.transparent-inputs .btn-secondary {
+    color: #474242 !important;
+    background-color: transparent !important;
+    border: solid 1px #ccbaba !important;
+}
+.transparent-inputs .btn-secondary:focus {
+  box-shadow: none !important;
+}
+.transparent-inputs .filter-arrow {
+  color: #474242;
+}
+.transparent-inputs .filter-field {
+  padding-left: 11px;
+}
+/* .transparent-inputs .tabs-dark .nav-pills .nav-link {
+  color: #474242;
+  background-color: transparent;
+} */
+.transparent-inputs .tabs-dark .nav-pills .nav-link.active, .tabs-dark .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #090a0a !important;
+}
+.transparent-inputs .tabs-dark .nav-pills .nav-link {
+  color: #312a2a;
+  background-color: transparent;
+  border-radius: 0;
+  border: solid 1px #c29d9d;
+}
+.transparent-inputs .tabs-dark .nav-pills .nav-item:not(:last-child) .nav-link {
+  border-right: transparent;
+}
+
+.transparent-inputs input::-webkit-input-placeholder {
+  color: #032621 !important;
+  opacity: 1;
+}
+
+
