@@ -2465,6 +2465,9 @@ sup {
 .bg-l-blue {
   background-color: #ffedfd !important;
 }
+.bg-blue {
+  background-color: #FA02DC !important;
+}
 .text-green {
   color: var(--green) !important;
 }
@@ -14225,6 +14228,21 @@ button:focus {
 .add-curve {
   min-height: 345px !important;
 }
+.modal-token .modal-body {
+  height: calc(100vh - 60px);
+}
+.modal-token  .modal-content {
+    border: none;
+    border-radius: 0;
+}
+.modal-token  .modal-dialog {
+  margin: 0;
+}
+.modal-token  .modal-content {
+    border: none;
+    border-radius: 0;
+}
+
 
 }
 
@@ -20944,6 +20962,10 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
                 padding: 0.5rem 0.55rem;
                 font-size: 12px;
                }
+              .transparent-inputs .tabs-dark .nav-pills .nav-link {
+                padding: 0.8rem 0.85rem;
+                font-size: 14px;
+            }
                .phone-top-menu .dropdown-menu a {
                 color: #fff !important;
     font-size: 18px;
@@ -21347,5 +21369,33 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
 table.table-white td {
   background-color: white;
 }
+ 
 
+.modal-token .close {
+    font-size: 2.5rem;
+    line-height: 0.9;
+    color: #fa02dc;
+    opacity: 1;
+    font-weight: lighter;
+}
+.modal-token .close:hover {
+  color: #fa02dc;
+}
+.modal-token .modal-body, .modal-token .modal-header  {
+  padding: 1.5rem;
+}
+.muted-input {
+  background-color: #F2F2F2;
+  border: none;
+  font-size: 13px;
+}
+.muted-input:hover, .muted-input:focus {
+  background-color: #F2F2F2;
+  border: none;
+  box-shadow: none;
+}
+.token-list li {
+  display: flex;
+  margin: 28px 0;
+}
 
