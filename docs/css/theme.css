@@ -2276,6 +2276,10 @@
 .p-30 {
   padding: 30px !important;
  }
+ .py-50 {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+ }
 .p-40 {
  padding: 50px;
 }
@@ -2368,6 +2372,9 @@ body {
   text-align: left;
   background-color: #fff;
   background: url(../images/body-bg.png);background-size: cover; background-repeat: no-repeat;
+}
+body.home {
+  background: url(../images/body-home.png);background-size: cover; background-repeat: no-repeat;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2968,6 +2975,9 @@ pre code {
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
+  }
+  .col-space {
+    padding-left: 4.8rem;
   }
 }
 
@@ -5309,6 +5319,11 @@ textarea.form-control {
   .form-inline .custom-control-label {
     margin-bottom: 0;
   }
+}
+
+.btn.btn-small {
+  min-width: 120px !important;
+  font-family: 'graphik', 'Montserrat';
 }
 
 .btn {
@@ -11752,6 +11767,12 @@ button.bg-dark:focus {
   margin-top: 3rem !important;
 }
 
+
+.my-10 {
+  margin-top: 7rem !important;
+  margin-bottom: 7rem !important;
+}
+
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important;
@@ -14242,7 +14263,10 @@ button:focus {
     border: none;
     border-radius: 0;
 }
-
+.connect-box h3 {
+  font-size: 22px !important;
+  line-height: 40px;
+}
 
 }
 
@@ -20863,7 +20887,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         .btn-disabled{background: #FFBEF7;color: #fff; font-family: graphik;min-width: 82px;min-height:35px;}
         .f12{font-size: 12px;}
         .text-theme{color:#fa02dc;}
-        .text-black{color: black;}
+        .text-black{color: black !important;}
         .btn-load-more{border: 1px solid #c7bbbb;
           border-radius: 4px;font-family: Graphik;
           font-style: normal;
@@ -21399,3 +21423,105 @@ table.table-white td {
   margin: 28px 0;
 }
 
+
+
+
+.connect-box{background: #FFFFFF;
+  border-radius: 10px;}
+  
+  .connect-box h3{font-family: Graphik;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #032621;}
+  /* .connect-box p{font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #032621;margin-bottom: 30px} */
+  
+  
+  
+  /*Hedge-Create Funds*/
+  .create-nav-tabs{display: flex;box-sizing: border-box;border-radius: 5px; border-bottom: none; justify-content: center;}
+  
+  .create-nav-tabs .nav-link.active{background: none;
+      border: none;
+      color: black;
+      font-weight: 600;opacity: 1;}
+      .create-nav-tabs .nav-link.active i{color: #fa02dc}
+      .create-nav-tabs .nav-item{border: 1px solid rgba(3, 38, 33, 0.2);margin-right: -1px;}
+      .create-nav-tabs .nav-item:last-child{border-right: 1px solid rgba(3, 38, 33, 0.2);}
+      .create-nav-tabs .nav-link{font-size: 16px;
+  line-height: 24px;
+  color: #032621;
+  opacity: 0.5;
+  padding-inline: 18px;
+  white-space: nowrap;
+}
+  .hedge-field{background: rgba(3, 38, 33, 0.05); font-weight: bold;
+  border-radius: 4px;border: none;min-height: 49px;}
+  .down-arrow {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      color: #1e1e1e;
+      cursor: pointer;
+  }
+  .hedge-card{background: #FFFFFF;
+  box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;}
+  .hedge-card label{color: rgba(3, 38, 33, 0.67);}
+  .btn-outline-gray{border: 1px solid #D9D8D8;}
+  .hedge-card .form-control:focus{background-color: #f2f4f4;}
+  button.close{color: #fa02dc;
+      opacity: 1;
+      font-size: 30px;}
+      .modal-title{font-size: 32px;
+  line-height: 40px;
+  color: #032621;font-weight: 600;}
+  .modal-open{padding-right: 0;}
+  .f14{font-size: 14px;}
+  .f16{font-size: 16px;}
+  
+  
+  .aqua-box{background: #ECFFFC;
+  border-radius: 4px;display: flex;padding:15px;}
+  hr.aqua{border-bottom: 1px solid #032621;opacity: 0.2;}
+  .aqua-badge{background: #74E3D8;
+  border-radius: 2px;padding: 5px;}
+  .line-h-20{line-height: 20px;}
+  .dropdown-value {
+    line-height: 48px;
+    padding-left: 12px;
+    color: #7f8085;
+    font-weight: normal;
+  }
+  .btn.btn-footer {
+    min-height: 45px;
+    min-width: 109px !important;
+    font-size: 14px;
+  }
+  .white-list {
+    margin-left: 6px;
+    padding-top: 6px;
+  }
+.white-list li {
+  background-color: #dee1e4;
+  border-radius: 4px;
+  margin-right: 6px;
+  color: rgb(27, 26, 26);
+  font-weight: normal;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+}
+.list-show {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
