@@ -15,7 +15,7 @@
 }
 
 .fs-14 {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 .fs-15 {
@@ -2475,6 +2475,7 @@ sup {
 .bg-blue {
   background-color: #FA02DC !important;
 }
+
 .text-green {
   color: var(--green) !important;
 }
@@ -8533,7 +8534,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #007bff;
+  background-color: #74E3D8;
+  
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
@@ -20752,6 +20754,19 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
         left: 50%;
         transform: translate(-50%, -50%);
       }
+      .inner-sub-heading{font-family: GraphikBlack;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 54px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 72%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+
       .inner-filter{background: #fc4ee7;min-height: 74px;}
       /* switch style */
       .switch {
@@ -21035,6 +21050,11 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
           background-repeat: no-repeat;
           background-position: bottom center;
           min-height: 280px;
+        }
+
+        .add-curve.large-curve {
+          min-height: 480px;
+          background-image: url("../images/Vector.png");
         }
        
 
@@ -21548,4 +21568,12 @@ table.table-white td {
 }
 .no-appearance {
   appearance: none;
+}
+.bg-pink {
+  background-color: #b142ac !important;
+}
+.chat-data {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
