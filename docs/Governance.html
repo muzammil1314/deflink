@@ -106,7 +106,7 @@
                               <small class="text-muted">Addresses </small>
                              
                               <p class="small mb-0 text-black line-h-auto">674</p>
-                              <button class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></button>
+                              <a href="Governance-Detail.html" class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></a>
                             </div>
                          </div>
                         </div>
@@ -126,8 +126,8 @@
                              <small class="text-muted">Addresses </small>
                             
                              <p class="small mb-0 text-black line-h-auto">674</p>
-                             <button class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></button>
-                           </div>
+                             <a href="Governance-Detail.html" class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></a>
+                            </div>
                         </div>
                        </div>
                     </di>
@@ -146,8 +146,8 @@
                            <small class="text-muted">Addresses </small>
                           
                            <p class="small mb-0 text-black line-h-auto">674</p>
-                           <button class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></button>
-                         </div>
+                           <a href="Governance-Detail.html" class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></a>
+                          </div>
                       </div>
                      </div>
                   </di>
@@ -167,8 +167,8 @@
                          <small class="text-muted">Addresses </small>
                         
                          <p class="small mb-0 text-black line-h-auto">674</p>
-                         <button class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></button>
-                       </div>
+                         <a href="Governance-Detail.html" class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></a>
+                        </div>
                     </div>
                    </div>
                 </di>
@@ -187,8 +187,8 @@
                        <small class="text-muted">Addresses </small>
                       
                        <p class="small mb-0 text-black line-h-auto">674</p>
-                       <button class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></button>
-                     </div>
+                       <a href="Governance-Detail.html" class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></a>
+                      </div>
                   </div>
                  </div>
               </di>
@@ -207,8 +207,8 @@
                      <small class="text-muted">Addresses </small>
                     
                      <p class="small mb-0 text-black line-h-auto">674</p>
-                     <button class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></button>
-                   </div>
+                     <a href="Governance-Detail.html" class="btn btn-outline-default btn-sm mt-3">Vote <i class="fa-caret-right fas fs-15 ml-2 text-blue"></i></a>
+                    </div>
                 </div>
                </div>
             </di>
@@ -253,7 +253,7 @@
                     </div>
                     <h5 class="mb-0">WNDR</h5>
                     <span class="fs-20 mx-3 text-muted">|</span>
-                    <h5 class="mb-0"> 1.0</h5>
+                    <h5 contentEditable="true" class="mb-0 editable"> 1.0</h5>
                    
                    
                    
@@ -263,20 +263,21 @@
                   </div>
                  
                 </div>
-                <div class="d-flex pills mt-35">
-                   <div>
-                    25%
-                   </div>
-                   <div>
-                    50%
-                   </div>
-                   <div>
-                    75%
-                   </div>
-                   <div>
-                    100%
-                   </div>
-                </div>
+              
+                <ul class="nav nav-pills mb-3 token-btn nav-justified mt-35" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  data-toggle="pill"  role="tab" aria-controls="pills-home" aria-selected="true"> 25%</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  data-toggle="pill"  role="tab" aria-controls="pills-profile" aria-selected="false">50%</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  data-toggle="pill"  role="tab" aria-controls="pills-contact" aria-selected="false"> 75%</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  data-toggle="pill"  role="tab" aria-controls="pills-contact" aria-selected="false">  100%</a>
+                  </li>
+                </ul>
              
                 
                </div>
@@ -310,7 +311,7 @@
                    <h5 class="mb-0 fs-20 mr-2">Gas Price</h5>
                    <img  src="images/pin.svg">
                  <div class="ml-auto">
-                  <select class="form-control form-control-sm custom-option">
+                  <select class="form-control form-control-sm custom-option no-appearance">
                     <option>High (20 Gwei)</option>
                     <option>Low (10 Gwei)</option>
                   </select>
@@ -318,16 +319,16 @@
                 
                </div>
                <div class="d-flex pills-scroll p-1 mt-25 rounded">
-                  <div class="pill">
+                  <div class="pill cursor-pointer">
                    25 <br> Low
                   </div>
-                  <div class="pill active">
+                  <div class="pill active cursor-pointer">
                     15 <br> Medium
                   </div>
-                  <div class="pill">
+                  <div class="pill cursor-pointer">
                     20 <br> High
                   </div>
-                  <div class="pill">
+                  <div class="pill editable" contentEditable="true" >
                      Custom
                   </div>
                </div>

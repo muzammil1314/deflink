@@ -21052,6 +21052,9 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
     font-family: Graphik;
     white-space: nowrap;
       }
+      .table.v-center th, .table.v-center td {
+          vertical-align: middle !important;
+    }
       .table-striped tbody tr:nth-of-type(odd) {
         background-color: #ECFFFC;
     }
@@ -21109,19 +21112,23 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
     .page-item.active .page-link {
       z-index: 3;
       color: #fff;
-      background-color: #e5e5e5;
+      background-color: #140e0e;
       border-color: #e5e5e5;
   }
   tr.hide-row td {
     padding: 0;
   }
-  tr.hide-row #collapseExample  {
+  tr.hide-row  [id^="collapseExample"] {
     background-color: rgb(3, 38, 33) !important;
     border-radius: 7px;
     margin: 12px;
     color: white;
     padding: 18px 9px;
   }
+
+  /* [class^="top"] {
+    background: yellow;
+  } */
 
   .social-icons-light li {
     display: inline-block;
@@ -21142,8 +21149,12 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
 .btn.btn-outline-default {
   border-color: #E7E7E7 !important;
   background-color: white !important;
-  display: flex;
+  display: inline-block;
     align-items: center;
+}
+.btn.btn-outline-default:hover {
+  box-shadow: none;
+  color: inherit;
 }
 .card-dark {
   background-color: #032621;
@@ -21172,18 +21183,24 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
   background: #0b2d28;
  
 }
-.pills div {
- flex: 1;
- background: #23423e;
- margin: 0 2px;
- border-radius: 5px;
- display: flex;
+
+.nav-pills.token-btn .nav-link  {
+  font-size: 14px;
+  background: #23423e;
+  color: white;
+  height: 44px;
+  display: flex;
  align-items: center;
  justify-content: center;
- height: 44px;
- color: white;
- font-size: 14px;
+ margin: 0 2px;
 }
+
+
+.nav-pills.token-btn  .nav-link.active {
+  background-color: #546c68;
+}
+
+
 .card-header {
   padding: 0.95rem 1.25rem;
   border-bottom: 1px solid rgb(221 219 219 / 13%);
@@ -21524,4 +21541,11 @@ table.table-white td {
   border-radius: 50%;
   display: inline-block;
   margin-right: 8px;
+}
+.editable {
+  outline: none;
+  border: none;
+}
+.no-appearance {
+  appearance: none;
 }
