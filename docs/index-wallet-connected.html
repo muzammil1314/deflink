@@ -25,7 +25,7 @@
       <img class="d-none d-sm-block " src="images/logo.svg">
       <img class="d-sm-none mini-logo" width="25" height="40" src="images/mini-logo.svg">
     </a>
-    <button data-toggle="modal" data-target="#Modal-Connect" class="btn btn-outline-primary d-lg-none ml-auto btn-appear">Connect Wallet</button>
+    <button data-toggle="modal" data-target="#Modal-Account"  class="btn btn-outline-primary d-lg-none ml-auto btn-appear">Connect Wallet</button>
     <div class="collapse navbar-collapse  px-4 px-lg-0 phone-top-menu"  id="collapsibleNavId">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
@@ -64,7 +64,9 @@
       </ul>
 
       <div class="d-none d-lg-block" style="align-items: center;justify-content:flex-end;">
-        <button  data-toggle="modal" data-target="#Modal-Connect"  class="btn btn-outline-primary btn-header">Connect Wallet</button>
+        <button  data-toggle="modal" data-target="#Modal-Account"  class="btn btn-outline-primary btn-header btn-account d-flex align-items-center">
+          6.81 ETH  <span class="d-flex btn-value ml-2 align-items-center"><img height="12"  src="images/mini-logo.svg" class="btn-logo mr-2"> 0x...9fq0</span>
+        </button>
     </div>
     </div>
   </nav>
@@ -85,7 +87,7 @@
     
       <h1 class="banner-text mb-3 mb-lg-5">Enter The DeFi <br> Wonderland Of <br> The Future</h1>
       <p class="mb-5">Transact, Invest, Loan & Earn on the Worlds <br> fastest Growing decentralised HUB.</p>
-      <button data-toggle="modal" data-target="#Modal-Connect"  class="btn btn-secondary mb-2 mr-sm-2">Connect Wallet</button>
+      <button data-toggle="modal" data-target="#Modal-Account"  class="btn btn-secondary mb-2 mr-sm-2">Connect Wallet</button>
       <button class="btn btn-outline-primary mb-2">CTA</button>
    
      </div>
@@ -299,60 +301,74 @@
 
 
 <!-- Modal -->
-<div class="modal fade modal-token" id="Modal-Connect" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable">
+<div class="modal  fade modal-token" id="Modal-Account" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header border-0 pb-0">
-        <h4 class="modal-title graphic-medium" id="exampleModalLabel">Connect Wallet</h4>
+        <h4 class="modal-title graphic-medium" id="exampleModalLabel">Your Account</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body pt-4">
-
-      <div class="row text-center">
-         <div class="col-6 col-md-4 mb-30">
-           <a href="index-wallet-connected.html">
-            <img class="mb-2"  height="50" width="50" src="images/cat.svg">
-            <h6 class="fs-14 mb-0 text-black">Metamask</h6>
-           </a>
-         </div>
-         <div class="col-6 col-md-4 mb-30">
-          <img class="mb-2" height="50" width="50" src="images/walletconnect.svg">
-          <h6 class="fs-14 mb-0 text-black">WalletConnect</h6>
-         </div>
-         <div class="col-6 col-md-4 mb-30">
-          <img class="mb-2" height="50" width="50"" src="images/horizontal_white.svg">
-          <h6 class="fs-14  mb-0 text-black">Trust Wallet </h6>
-         </div>
-         <div class="col-6 col-md-4 mb-30">
-          <img class="mb-2"  height="50" width="50" src="images/binance-chain.svg">
-          <h6 class="fs-14 mb-0 text-black">Binance Chain Wallet</h6>
-         </div>
-         <div class="col-6 col-md-4 mb-30">
-          <img class="mb-2" height="50"  src="images/math-wallet.png">
-          <h6 class="fs-14 mb-0 text-black">Math Wallet</h6>
-         </div>
-         <div class="col-6 col-md-4 mb-30">
-          <img class="mb-2" height="50" width="50" src="images/tocken-pocket.png">
-          <h6 class="fs-14  mb-0 text-black">Token Pocket </h6>
-         </div>
-         <div class="col-6 col-md-4 mb-30">
-          <img class="mb-2" height="50"  src="images/safepal.png">
-          <h6 class="fs-14 mb-0 text-black">SafePal</h6>
-         </div>
-         <div class="col-6 col-md-4 mb-30">
-          <img class="mb-2" height="50" width="50" src="images/coin98.png">
-          <h6 class="fs-14  mb-0 text-black">Coin98 </h6>
-         </div>
-
          
-      </div>
+        <div class="acc-modal-tabs">
+          <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a aria-controls="pills-home" aria-selected="true" class="nav-link active" data-toggle="pill" href="#pills-investors" id="investors-tab" role="tab">Wallet</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a aria-controls="pills-profile" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-fund-managers" id="fund-managers-tab" role="tab">Transactions</a>
+            </li>
+          </ul>
+        </div>
 
 
-        
+
+        <div class="tab-content mt-4" id="myTabContent">
+          <div class="tab-pane fade show active" id="pills-investors" role="tabpanel" aria-labelledby="investors-tab">
+               <div class="account-balance-card py-sm-0 py-3">
+                 <div class="row w-100 justify-content-center align-items-center">
+                   <div class="col-md-2">
+                        <div class="logo-box mr-4 mb-sm-0 mb-4">
+                          <img   height="40"  src="images/mini-logo.svg">
+                         </div>
+                   </div>
+                   <div class="col-4 col-md-3">
+                       <h6 class="fs-14 text-white g">Balance</h6>
+                       <h6 class="fs-16 mb-0 text-white graphic-medium">6.81 ETH</h6>
+                  </div>
+                  <div class="col-4 col-md-3">
+                       <h6 class="fs-14 text-white g">Network</h6>
+                       <h6 class="fs-16 mb-0 text-white graphic-medium">Ethereum</h6>
+                   </div>
+                   <div class="col-4  col-md-3">
+                    <h6 class="fs-14 text-white g">Wallet</h6>
+                    <h6 class="fs-16 mb-0 text-white graphic-medium">Metamask</h6>
+                </div>
+                  </div>
+               </div>
+               <div class="form-group mt-4">
+                <label class="fs-14 text-muted" for="exampleInputEmail1">Your Address </label>
+                  <div class="input-group mb-2 copy-link">
+                    <input type="text" class="form-control muted-input" value="0xec0B02DAca36A765FEf0b8Ca89a3Bc0B02DAca3">
+                    <div class="input-group-prepend cursor-pointer">
+                      <div class="input-group-text text-black">  <img class="mr-2"  src="images/copy-icon.svg">  Copy</div>
+                    </div>
+                  </div>
+               
+              </div>
+
+             <div class="d-flex fs-14 justify-content-center mt-4 mb-3 align-items-center cursor-pointer">
+              <img class="mr-2" src="images/logout.svg"> Disconnect Wallet
+             </div>
+
+          </div>
+          <div class="tab-pane fade" id="pills-fund-managers" role="tabpanel" aria-labelledby="fund-managers-tab">
+            2nd
+          </div>
+        </div>
       </div>
-     
     </div>
   </div>
 </div>
