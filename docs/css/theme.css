@@ -21682,3 +21682,6 @@ table.table-white td {
     padding: 0.375rem 0.4rem;
     padding-left: 13px
 }
+.progress-bar.dark {
+  background-color: #8c9a98;
+}
