@@ -55,7 +55,7 @@
 }
 
 .fs-24 {
-  font-size: 24px;
+  font-size: 24px !important;
 }
 
 .fs-25 {
@@ -14243,6 +14243,13 @@ button:focus {
     padding: 0.2rem 0.6rem;
     font-size: 12px;
   }
+  .step-card::after {
+    background-image: none !important;
+  }
+  .container-section {
+    padding: 30px 0 !important;
+
+}
   .card {
     margin-bottom: 15px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -20506,8 +20513,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
       margin-bottom:4rem;
       padding:80px 0;
   }
-  .inner-section-space {
-    margin-bottom:4rem;
+  .container-section {
     padding:60px 0;
 }
 
@@ -20927,7 +20933,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
             .line-height-25{line-height: 25px;}
             .text-normal {
               color: #032621;
-              line-height: 25px;
+              line-height: 27px;
               font-size: 16px;
               letter-spacing: 0.1px;
               opacity: 0.9;
@@ -21684,4 +21690,77 @@ table.table-white td {
 }
 .progress-bar.dark {
   background-color: #8c9a98;
+}
+
+.home-banner-text {
+  font-size: 42px;
+  font-family:graphikLight;
+  line-height: 62px;
+}
+.home-banner-text .bold {
+  font-family: GraphikBlack;
+  font-weight: bold;
+}
+.featured-logo {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.border-dotted {
+  border-left: dashed 3.5px #b9b6b6;
+  height: 170px;
+}
+.step-card {
+  background-image: url("../images/step-bg.png");
+  height: 175px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 175px;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+
+.step-card::after {
+  content: " ";
+  background-image: url("../images/step-arrow.svg");
+  position: absolute;
+    right: -20px;
+    z-index: 99999;
+    display: block;
+    width: 55px;
+    background-repeat: no-repeat;
+    height: 30px;
+}
+.step-card.last-step::after {
+  content: " ";
+  background-image: none
+}
+.home-btn {
+  width: 140px;
+  height: 40px;
+}
+.btn-outline-primary.home-btn {
+  background-color: transparent !important;
+  color: #fa02dc;
+}
+
+.feature-card {
+  background-color: #e3fcf9;
+  height: 150px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 45px;
 }
