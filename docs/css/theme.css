@@ -20698,9 +20698,15 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
       }
 
       @media (max-width: 575.98px) {
+        .image-decentralised {
+          max-width: inherit !important;
+        }
         .inner-section-space {
           margin-bottom: 4rem;
           padding: 30px 10px;
+      }
+      .overflow-sm-hidden {
+        overflow-x: hidden;
       }
         .width-xs-100{width: 100%;}
         .width-xs-100 button{width: 100%;}
@@ -20733,7 +20739,7 @@ p{font-family:'graphik', 'Montserrat';font-size: 20px;color:#032621;line-height:
           font-size: 13px;
           font-family: Graphik;
       }
-        h2.heading-small{font-size: 28px !important;  letter-spacing: -1.5px;}
+        h2.heading-small{font-size: 28px !important; line-height: 38px;  letter-spacing: -1.5px;}
       
         .table-responsive-sm {
           display: block;
